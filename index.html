@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="board">
+        <div action="" class="board-head" id="board-head">
+            <div class="player-and-point">
+                <div class="p-and-p"><span>Players:</span><span id="players">0</span></div>
+                <div class="p-and-p"><span>Total Points:</span><span id="total-points">0</span></div>
+            </div>
+            <h1>Bảng điểm</h1>
+        </div>
+        <div id="board-body" class="board-body">
+            <!-- <div class="line">
+                <div class="left-side">
+                    <i class="fa-solid fa-x"></i>
+                    <i class="fa-solid fa-crown"></i>
+                    <span>Trần Bình</span>
+                </div>
+                <div class="right-side">
+                    <button class="minus" onclick="minus()">-</button>
+                    <div id="points">0</div>
+                    <button class="plus" onclick="plus()">+</button>
+                </div>
+            </div> -->
+        </div>
+        <div class="board-foot">
+            <input placeholder="Enter a player's name here" class="input-name" type="text">
+            <button onclick="addPlayer()" class="add-player">ADD PLAYER</button>
+        </div>
+    </div>
+    <div class="blocks">
+        <div class="confirms">
+            <h1>Bạn có chắc muốn xóa</h1>
+            <div><button>OK</button>
+            <button>Không</button>
+            <button class="cancel" onclick="cancel()"></button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+<script src="https://kit.fontawesome.com/4ce7f9b3cb.js" crossorigin="anonymous"></script>
+</html>
